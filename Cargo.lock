@@ -10079,6 +10079,7 @@ dependencies = [
  "frame-support",
  "frame-system",
  "hex",
+ "log",
  "midnight-node-ledger",
  "midnight-node-ledger-helpers",
  "midnight-node-res",
