@@ -7694,6 +7694,7 @@ dependencies = [
  "pallet-sidechain-rpc",
  "pallet-system-parameters",
  "pallet-system-parameters-rpc",
+ "pallet-throttle",
  "parity-scale-codec",
  "partner-chains-cli",
  "partner-chains-db-sync-data-sources",
@@ -7957,6 +7958,7 @@ dependencies = [
  "pallet-session-validator-management",
  "pallet-sidechain",
  "pallet-system-parameters",
+ "pallet-throttle",
  "pallet-timestamp",
  "pallet-tx-pause",
  "pallet-version",
@@ -10787,6 +10789,19 @@ dependencies = [
  "sp-core",
  "sp-runtime",
  "sp-session-validator-management-query",
+]
+
+[[package]]
+name = "pallet-throttle"
+version = "0.1.0"
+dependencies = [
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]
